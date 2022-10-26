@@ -35,8 +35,8 @@ defined below.
 """
 
 class Input:
-    def __init__(self):
-        pass
+    def __init__(self, data):
+        self.value = data
 
     def addgrad(self, delta):
         pass
